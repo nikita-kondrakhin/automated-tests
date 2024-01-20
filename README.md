@@ -1,3 +1,7 @@
-### This repository contains a collection of automated tests that I have created for learning purposes.
+### This branch contains automated tests for BookStore web application UI and DB. BookStore app runs locally via Docker containers.
 
-#### The repository is constantly evolving as I continue to learn and explore new testing frameworks, tools, and techniques. It's a place for me to experiment and practice :)
+*Adding sensitive information like credentials.json to a public GitHub repository is generally not recommended. Credentials provided in this repository are only dummy data and used exclusively for learning purposes. They do not represent any real-world or sensitive information.
+
+### BookStore cart functionality validation
+
+Preconditions: opened http://localhost/
