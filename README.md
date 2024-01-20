@@ -15,15 +15,16 @@ Preconditions: opened http://the-internet.herokuapp.com/
 | 5. Fill in valid password     |               Password filled in                |
 | 6. Click "Sign in"            | Sign in successful, congratulations page opened |
 
-#### Negative test - herokuapp basic auth:
+#### Negative test - herokuapp basic auth - Empty Username:
 
 Preconditions: opened http://the-internet.herokuapp.com/
 
-| Steps to reproduce          |                 Expected result                 |
-|-----------------------------|:-----------------------------------------------:|
-| 1. Locate "Basic Auth" button |                 Button is found                 |
-| 2. Click the button         |                New page is open                 |
-| 3. Locate modal auth window |             Modal window popped up              |
-| 4. Fill in username "admin" |               Username filled in                |
-| 5. Fill in password "admin" |               Password filled in                |
-| 6. Click "Sign in"          | Sign in successful, congratulations page opened |
+| Steps to reproduce            |    Expected result     |
+|-------------------------------|:----------------------:|
+| 1. Locate "Basic Auth" button |    Button is found     |
+| 2. Click the button           |    New page is open    |
+| 3. Locate modal auth window   | Modal window popped up |
+| 4. Leave username field empty |   Username is empty    |
+| 5. Fill in password "123"     |   Password filled in   |
+| 6. Click "Sign in"            |    Sign in failed,     |
+
